@@ -1,10 +1,18 @@
+.logo_header{
+  margin-right: 20px;
+  width:1.5em;
+  display: inline-block;
+  float:left;
+}
+
 .login__logo {
+
 position:fixed;
 z-index:5;
 color:#fefefe;
 left:20px;
 top:20px;
-font-size:1.26em;
+font-size:2.26em;
 }
 .login__rightSubtitle {
   color:#555;
@@ -95,6 +103,9 @@ color:#acacac;
 
 }
 .login__background {
+  background: #348F50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,rgb(81, 255, 182), #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(81, 255, 182),#368752); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   top:-25px;
   left:0;
   position:absolute;
@@ -104,10 +115,8 @@ color:#acacac;
 
   margin-top:25px;
   width:101%;
-  background: #348F50;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  
+  // height:100%;
   margin-bottom:-50px;
 }
 .cursorDefault {

@@ -229,7 +229,9 @@ render() {
     return (
       <div>
 
-    <div className="login__logo">NetZero ♻️💳</div>
+    <div className="login__logo"> 
+    <img className="logo_header" src="images/logo.png"/> 
+        NetZero </div> 
 
       <div className="login__background">
   <div className="login__mobileView">
