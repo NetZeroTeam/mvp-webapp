@@ -1,0 +1,255 @@
+.settings__mainImage {
+  height:75px;
+  width:75px;
+  border-radius:50%;
+  margin-right:15px;
+  margin-bottom:15px;
+}
+.settingsPositioning {
+  position:fixed;
+  left:28%;
+  right:50%;
+  top:15%;
+
+  @media screen and (max-width: 850px) {
+    left:38%;
+    right:50%;
+}
+@media screen and (max-width: 650px) {
+  left:32%;
+  right:50%;
+}
+@media screen and (max-width: 540px) {
+  left:26%;
+  right:50%;
+}
+@media screen and (max-width: 350px) {
+  left:22%;
+  right:50%;
+}
+}
+.settings__topNames {
+  margin-top:-81px;
+  margin-left:95px;
+  width:150px;
+}
+.settigns__userName {
+color:#555;
+font-size:1.3em;
+font-weight:500;
+}
+.settings__userDescription {
+  font-size:0.85em;
+  color:#9d9d9d;
+}
+.settingsTop {
+clear:both;
+}
+.settings__option {
+  color:#9d9d9d;
+  float:left;
+  font-weight:bold;
+  font-size:0.98em;
+  margin-right:9px;
+  cursor:pointer;
+}
+.settings__individualContainers {
+  margin-left:20px;
+}
+.settings__hr {
+  height:1px;
+border:none;
+color:#dddddd;
+background-color:#dddddd;
+width:100%;
+}
+.settings__icon {
+  color:#9d9d9d;
+  cursor:pointer;
+}
+.settingsList {
+  width:150px;
+  margin-top:15px;
+  clear:both;
+  margin-left:-50px;
+  display:flex;
+}
+.feedbackCheckmark_container {
+  display: block;
+  position: relative;
+  margin-bottom: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.feedbackCheckmark_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.feedbackCheckmark {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  margin-left:8px;
+  margin-top:1px;
+  background-color: #fff;
+  border:1px solid #a1a1a1;
+  opacity:0.8;
+  border-radius:3px;
+}
+.feedbackCheckmark_container input:checked ~ .feedbackCheckmark {
+  background-color: #15a05c;
+  border-color: #15a05c;
+}
+.feedbackCheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.feedbackCheckmark_container input:checked ~ .feedbackCheckmark:after {
+  display: block;
+}
+.feedbackCheckmark_container .feedbackCheckmark:after {
+  width: 2.5px;
+  height: 7px;
+  margin-left:36%;
+  margin-top:2px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.settings__goals {
+  float:left;
+  margin-right:50px;
+  margin-left:-47px;
+  margin-top:-25px;
+}
+.settings__notifications {
+  float:left;
+  margin-top:-25px;
+}
+.settings__bottomHeaderHr {
+  height:3px;
+  color:#7d7d7d;
+  background-color:#7d7d7d;
+  width:230px;
+  float:left;
+  border:none;
+  clear:both;
+  margin-top:3px;
+  margin-bottom:20px;
+}
+// .feedback__inputSignupPage {
+//   color:#9d9d9d;
+//   font-size:0.85em;
+//   float:left;
+// }
+.feedback__marginLeft {
+  margin-left:-5px;
+  margin-top:-12px;
+  position:relative;
+  z-index:100;
+}
+.feedback__mainText {
+  color:#868686;
+  font-size:1.03em;
+
+  -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+.feedback__mainIcon {
+  float:left;
+  margin-right:9px;
+  color:#868686;
+  font-size:1.08em;
+}
+.feedback__hrBottom {
+  height:1px;border:none;color:#dddddd;background-color:#dddddd; margin-top:20px; margin-bottom:36px; width:473px; margin-left:0px; margin-right:12px;
+
+  @media screen and (max-width: 635px) {
+    width:75.4vw;
+  }
+}
+.feedback__rightCheckmark {
+  margin-left:36px;
+  margin-top:0px;
+}
+.feedback__signUpPageMarginRight {
+  margin-left:-10px;
+  margin-top:-3px;
+  border:1px solid #dddddd;
+  background-color:#fff;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.feedback__inputSignupPage {
+  margin-top:0px; margin-left:36px;
+  font-size:0.93em;
+}
+.feedback__checkBoxesMarginLeft {
+  margin-left:-8px;
+  float:left;
+}
+.feedback__subtitleHr {
+  height:1px;border:none;color:#dddddd;background-color:#dddddd; width:473px; margin-left:0px; margin-top:-8px; margin-bottom:23px;
+
+  @media screen and (max-width: 635px) {
+    width:75.4vw;
+  }
+}
+.settings__checkmarks {
+  clear:both;
+
+}
+.settings__bottomofPage {
+  display:flex;
+}
+.settings__moveOneCheckmark {
+clear:both;
+}
+.settings__mainAuthorTextArea2 {
+  height:37px;
+  width:50px;
+  font-size:0.92em;
+  float:left;
+  padding-left:10px;
+  border-radius:4px;
+  border:0.5px solid #dedede;
+  cursor:default;
+  margin-bottom:7px;
+  -webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.settings__individualGoals {
+  float:left;
+  margin-right:20px;
+  width:144px;
+  margin-top:10px;
+  margin-bottom:14px;
+  font-size:0.94em;
+  margin-left:3px;
+}
+.clearBoth {
+  clear:both;
+}
+.settings__joinInputAndText {
+  display:flex;
+}
+.settings__allIndvGoals {
+  clear:both;
+
+}

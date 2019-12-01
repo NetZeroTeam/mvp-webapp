@@ -1,0 +1,46 @@
+.positionZIndexPositionsTagsPositioningOverview {
+  position:relative;
+  z-index:10000;
+  top:-23px;
+  top:-23px;
+  left:-90px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Old versions of Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none;
+}
+.overview__mainContainer {
+  margin-top:-45px;
+}
+
+.w60{
+  width:60px;
+}
+.overview__bottomSpacing {
+  height:35px;
+}
+
+.overview__centerWindow {
+  padding-top:20px;
+  max-width:450px;
+  margin:0 auto;
+}
+.overview__welcomeBackHeader {
+  color:#8884d8;
+}
+
+.offset__tags {
+  width: 60px !important;
+  float:left;
+  margin-right:55px;
+  color:#7d7d7d;
+  font-size:0.86em;
+}
+
+.leftMargin100{
+  margin-left: 100px;
+}
+

@@ -1,0 +1,45 @@
+.insights__bottomSpacing {
+  height:150px;
+}
+.insights__mobileView {
+ display:block;
+ width:640px;
+ border-radius:5px;
+ margin-top:8vw;
+ margin-bottom:8vw;
+ background-color:#fff;
+ position:relative;
+ left:20%;
+
+}
+
+ .insights__sortByButton {
+   // border: 1px solid #a1a1a1;
+   border-radius:3px;
+   margin-top:2px;
+   width:115px;
+   height:45px;
+   z-index:100;
+   margin-bottom:2px;
+   margin-left:8px;
+   cursor:pointer;
+ }
+ .positionZIndexPositionsTagsMoveRight {
+   position:relative;
+   z-index:10000;
+   left:385px;
+   top:-54px;
+
+   -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+ }
+ .insights__moveLineChart {
+   margin-top:-50px;
+ }
+ .insight__topHeader {
+   margin-left:34px;
+ }

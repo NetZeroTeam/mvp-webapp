@@ -1,0 +1,95 @@
+* {
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+  font-family: 'Open Sans', sans-serif;
+  text-decoration:none;
+}
+.bottomButtonsTop {
+  width:100%;
+  position:fixed;
+  bottom:0;
+  left:0;
+  display:flex;
+  -webkit-box-shadow: 0px -2px 3px #f1f1f1;
+  -moz-box-shadow: 0px -2px 3px #f1f1f1;
+  box-shadow: 0px -2px 3px #f1f1f1;
+
+}
+.bottomButtonsBox {
+  text-align:center;
+  align-items:center;
+  text-decoration:none;
+  background-color:#fff;
+  height:75px;
+  width:100%;
+  display:block;
+}
+
+.offsetTitleEnlarge {
+  width:600px;
+}
+
+.BottomButtonsLink {
+  text-decoration:none;
+  color:#bbb;
+}
+.bottomButtons__centering {
+  margin-top:17px;
+}
+.bottomButtons__iconOn {
+color:#777;
+}
+.bottomButtons__text {
+  font-size:0.76em;
+  margin-top:3px;
+  font-weight:bold;
+}
+.bottomButtons__textOn {
+  color:#777;
+}
+
+.dropdownc {
+     position: relative;
+     display: inline-block;
+     z-index:100;
+ }
+ .dropdown-contentc {
+     display:none;
+     position:absolute;
+     z-index:100;
+ }
+ .dropdown-content1c {
+     position: absolute;
+     min-width: 137px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 10000;
+     display:block;
+     margin-left:6px;
+     border-radius:2px;
+     top:3vw;
+ }
+ .dropdown-contentc a {
+     text-decoration: none;
+ }
+
+ .dropdown-contentc a:hover { background-color: #f1f1f1 }
+
+ .insights__mainIcon {
+   float:left;
+   margin-right:9px;
+   color:#868686;
+   font-size:1.1em;
+   margin-top:5px;
+
+   @media screen and (max-width: 550px) {
+   font-size:1.08em;
+   margin-right:6px;
+   }
+ }
+ .capitalOneImage {
+   height:36px;
+   margin-top:4px;
+ }
+ .starlingBankImage {
+   height:20px;
+   margin-top:4px;
+ }
